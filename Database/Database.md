@@ -26,7 +26,8 @@ public static Connection createNewDatabase(String fileName) {
     // This is just a file path "jdbc:sqlite" is the driver to use and C:/sqlite/db is a file path to store the database file at
     String url = "jdbc:sqlite:C:/sqlite/db/" + fliename;
     
-    try (Connection conn = DriverManager.getConnection(url)) {
+    try{
+        Connection conn = DriverManager.getConnection(url);
         if (conn != null) {
             return conn;
         }
