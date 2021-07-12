@@ -18,17 +18,17 @@ First thing is to make sure you have Eclipse for Java Enterprise Developers. The
 
 To start with create a new Gradle project.
 
-![image-20210519165012829](img\image-20210519165012829.png)![image-20210519165203110](img\image-20210519165203110.png)
+![image-20210519165012829](img/image-20210519165012829.png)![image-20210519165203110](img/image-20210519165203110.png)
 
 Click next until you get to the naming screen
 
-![image-20210519165300003](img\image-20210519165300003.png)
+![image-20210519165300003](img/image-20210519165300003.png)
 
 Give it a simple name.  In this case **GradleDemo** And then Click Finish.
 
 Then Open up the new project and open the file build.gradle
 
-![image-20210519165529000](img\image-20210519165529000.png)
+![image-20210519165529000](img/image-20210519165529000.png)
 
 For this tutorial we are going to stick with simple things that can be useful in the programing environment just to make sure that we have Gradle working. In your build.gradle file place the following in the dependencies block
 
@@ -120,7 +120,7 @@ csvWriter.close();
 
 Now one more step before you execute. ***Right click*** on the ***build.gradle*** file and click ***Refresh gradle Project***
 
-![image-20210520160016088](img\image-20210520160016088.png)
+![image-20210520160016088](img/image-20210520160016088.png)
 
 Now you can execute your ReadWriteDemo.java.  After the program executes you should refresh the project and see the new csv that has been created. This should be a simple example to test Gradle and make sure that it is working. 
 
