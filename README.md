@@ -15,8 +15,8 @@ Most of these examples will have the same file structure. First there will be a 
 ### [Gradle](https://github.com/calebbaker194/C-Team/blob/main/Gradle/Gradle.md)
 Gradle is one of the easiest ways for someone to add external dependencies to a Java project. It is used quite heavily in industry. There are other software that do the same thing and often people will ask you if you have experience with Buildship. That is the same Idea as Gradle. This will be used in almost all if not all of the following projects. It allows us to create code without reinventing the wheel.
 
-### SQL
-[This Tutorial](https://github.com/calebbaker194/C-Team/blob/main/Database/Database.md) will show you how to use SQL. It is important for any application to be able to interface with a database system. All business use a database system. This will teach you to use 2 types of databases. 
+### [SQL](https://github.com/calebbaker194/C-Team/blob/main/Database/Database.md)
+This Tutorial will show you how to use SQL. It is important for any application to be able to interface with a database system. All business use a database system. This will teach you to use 2 types of databases. 
 - Sql Lite- This is used for storage on the same computer. It is not as scalable as some of the other types of SQL
 - PostgreSQL- This is an open source database software and is one of the fastest growing in the world.
 
