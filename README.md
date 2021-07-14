@@ -20,7 +20,7 @@ This Tutorial will show you how to use SQL. It is important for any application 
 - Sql Lite- This is used for storage on the same computer. It is not as scalable as some of the other types of SQL
 - PostgreSQL- This is an open source database software and is one of the fastest growing in the world.
 
-### Email
+### [Email](https://github.com/calebbaker194/C-Team/blob/main/Email/Email.md)
 Sending email is really easy in java. This tutorial will teach you even outside of what you can do with only Java. 
 - Send Email
 - Check Email
