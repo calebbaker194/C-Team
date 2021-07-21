@@ -4,7 +4,7 @@
 
 Just a quick bit of eclipse to help you through this one. Web servers are not like a typical program. They do not terminate automatically. 
 
-![Console Bar](img\consolebar.png)
+![Console Bar](img/consolebar.png)
 
 When you update java code. You must terminate and relaunch. If you accidentally launch before you terminate you will get on error 
 
