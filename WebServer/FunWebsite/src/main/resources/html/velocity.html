@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<title>Dynamic Render</title>
+</head>
+<body>
+  Classroom: $Name
+  </br>
+  Students: $Students
+  <table>
+  <tr>
+  <th>Item</th>
+  <th>Stock</th>
+  </tr>
+  #foreach( $key in $stock.keySet())
+      <tr>
+        <td>
+          $key
+        </td>
+        <td>
+          $stock.get($key)
+     	</td>
+      </tr>
+  #end
+  </table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>JS is Fun</title>
+		<script src="js/js-tutorial.js"></script>
+	</head>
+	<body>
+		<label for="radius">Radius: </label>
+		<input onchange="calculate()" type="text" name="radius">
+		</br>
+		<label for="diameter">Diameter: </label>
+		<input type="text" name="diameter">
+		</br>
+		<label for="area">Area: </label>
+		<input type="text" name="area">
+		</br>
+		<label for="surface">Surface: </label>
+		<input type="text" name="surface">
+		</br>
+		<label for="volume">Volume: </label>
+		<input type="text" name="volume">
+		</br>
+		<script>
+		function calculate()
+		{
+			var radius = document.getElementsByName("radius")[0].value;
+			
+			var diam = radius*2;
+			var area = 2 * Math.PI * radius;
+			var surf = 4 * Math.PI * Math.pow(radius,2)
+			var volume  = 4.0 / 3.0 * Math.PI * Math.pow(radius,3)
+			
+			document.getElementsByName("diameter")[0].value = diam
+			document.getElementsByName("area")[0].value = area
+			document.getElementsByName("surface")[0].value = surf
+			document.getElementsByName("volume")[0].value = volume
+		}
+		</script>
+	</body>
+</html>
