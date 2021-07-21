@@ -1,5 +1,21 @@
 # Web Servers
 
+### Prelog
+
+Just a quick bit of eclipse to help you through this one. Web servers are not like a typical program. They do not terminate automatically. 
+
+![Console Bar](img\consolebar.png)
+
+When you update java code. You must terminate and relaunch. If you accidentally launch before you terminate you will get on error 
+
+```java
+java.io.IOException: Failed to bind to /0.0.0.0:80
+```
+
+When you get this error use the Switch console button and terminate all active console's. This will make sure that you have no other instance of your program running. 
+
+If you make a change to an HTML file or a CSS file. you do not need to terminate and relaunch. you can simply refresh the web page.
+
 ### Introduction
 
 This is possible one of my personal favorite subjects. Web Servers. How do I connect to people around me and offer services to people around the world.  For this Simple Web App we are going to use (sparkjava)[https://sparkjava.com/]. Why? It is incredibly simple. Possible the most simple web server implementation to use that is out there. However. If you are really into performance, you can find out how to set up servers on something like NGINX. To start off create a Gradle project and add this to the **build.gradle** under the dependencies section.
